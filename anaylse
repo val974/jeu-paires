@@ -1,0 +1,42 @@
+Dans le DOM : 
+- prévoir 14 emplacements.
+
+JS : 
+
+AFFICHER LES CARTES RETOURNÉES
+	- prévoir des emplacements dans le dom
+RÉCUPÉRER LES POSITIONS DES CARTES DU DOM
+	- récupérer avec query Selector pour récupérer les positions.
+	- faire un Math Random pour distribuer aléatoirement les cartes
+	- remplacer les cartes par les images qui restent cachées
+	- avec un évènement onclick afficher image. 
+DES QUE 2 CARTES SONT RETOURNÉES, COMPARER
+	- répéter jusqu'à ce que deux cartes soient cliquées.
+	- si la carte 1 = la carte 2 alors les 2 cartes restent visibles
+	- sinon afficher "Les 2 images sont différentes"
+	les cartes se retournent.
+
+REPASSER A LA PHASE PRECEDENTE.
+	- créer une autre boucle.
+LE JEU SE TERMINE QUAND TOUTES LES CARTES SONT RETOURNÉES.
+	- afficher un message "Vous avez gagné"
+
+DEBUT
+images <- [img1,img2,img3,img4,img5,img6,img7]
+position <- Recupérer position []
+emplacement <- IMAGES ALEATOIRES
+
+POUR i <- 0 à i < TAILLE(images) PAS 1
+	POUR j <- 0 à j TAILLE(emplacement) PAS 1
+		taille[i] <- emplacement [j]
+	FINPOUR
+
+FINPOUR
+
+
+
+
+
+
+
+FIN
