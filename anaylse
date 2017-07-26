@@ -23,12 +23,12 @@ LE JEU SE TERMINE QUAND TOUTES LES CARTES SONT RETOURNÉES.
 
 DEBUT
 images <- [img1,img2,img3,img4,img5,img6,img7]
-position <- Recupérer position []
 emplacement <- IMAGES ALEATOIRES
-
+RECUPERER LA POSITION DE CHAQUE CARTE
+POUR chaque carte
 POUR i <- 0 à i < TAILLE(images) PAS 1
+	RECUPERER LA POSITION
 	POUR j <- 0 à j TAILLE(emplacement) PAS 1
-		taille[i] <- emplacement [j]
 	FINPOUR
 
 FINPOUR
